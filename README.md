@@ -1,4 +1,7 @@
 # Test_Speed_tensorflow
+
+Author: Ecohnoch (Chuyuan Xiong)
+
 Test the different methods to load data from VoxCeleb1.
 
 
