@@ -19,7 +19,7 @@ Counter: 9 Step time: 7.550851821899414 Batch time: 0.41985249519348145
 ```
 
 
-Multi_thread:
+Multi_thread(Queue Buffer=3):
 
 ```
 Counter: 0 Step time: 6.949103832244873 Batch time: 6.949103832244873
