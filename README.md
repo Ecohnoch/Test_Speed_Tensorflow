@@ -53,3 +53,29 @@ Counter: 8 Step time: 0.44022130966186523 Batch time: 0.3950035572052002
 Counter: 9 Step time: 0.4184234142303467 Batch time: 0.3947596549987793
 10 Batch time consumed:  10.002059936523438
 ```
+
+
+References:
+
+```
+@InProceedings{Xie19,
+  author       = "W. Xie, A. Nagrani, J. S. Chung, A. Zisserman ",
+  title        = "Utterance-level Aggregation For Speaker Recognition In The Wild.",
+  booktitle    = "ICASSP, 2019",
+  year         = "2019",
+}
+
+@InProceedings{Chung18,
+  author       = "J. S. Chung*, A. Nagrani*, A. Zisserman ",
+  title        = "VoxCeleb2: Deep Speaker Recognition.",
+  booktitle    = "INTERSPEECH, 2018",
+  year         = "2018",
+}
+
+@InProceedings{Nagrani17,
+  author       = "A. Nagrani*, J. S. Chung*, A. Zisserman ",
+  title        = "VoxCeleb: A Large-scale Speaker Identification Dataset.",
+  booktitle    = "INTERSPEECH, 2017",
+  year         = "2018",
+}
+```
