@@ -162,10 +162,10 @@ def generate_tfrecord(output_path):
                 'label':     tf.train.Feature(int64_list=tf.train.Int64List(value=[label]))
             }))
         writer.write(example.SerializeToString())
-        if ind % 1000 == 0:
+        if i != 0 and ind % 1000 == 0:
             print("%d num audios processed" % ind)
-        if ind % 25000== 0:
-            print("25000 num processed")
+        if i != 0 and ind % 10000== 0:
+            print("10000 num processed")
             break
     writer.close()
 
@@ -225,7 +225,7 @@ def tfrecord_test(trans_file):
 
 if __name__ == '__main__':
 	# multi_thread_test()
-    generate_tfrecord('/data/ChuyuanXiong/up/audio_trans')
-    # tfrecord_test('/data/ChuyuanXiong/up/audio_trans/tran.tfrecords')
+    # generate_tfrecord('/data/ChuyuanXiong/up/audio_trans')
+    tfrecord_test('/data/ChuyuanXiong/up/audio_trans/tran.tfrecords')
 
 
